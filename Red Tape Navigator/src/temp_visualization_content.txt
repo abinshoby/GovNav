@@ -1,0 +1,11 @@
+          {/* Visualization */}
+          <TabsContent value="visualization" className="space-y-6">
+            <DynamicVisualization
+              visualizationQuery={visualizationQuery}
+              setVisualizationQuery={setVisualizationQuery}
+              visualizationData={visualizationData}
+              getCategoryColor={getCategoryColor}
+              getJurisdictionColor={getJurisdictionColor}
+              getConflictSeverityColor={getConflictSeverityColor}
+            />
+          </TabsContent>
