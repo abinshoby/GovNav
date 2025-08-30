@@ -27,12 +27,6 @@ This project simplifies complex regulations and paperwork using AI-driven summar
 
 ---
 
-### 4. [Bridging Social Divides: Bringing People Together to Strengthen Social Connections](https://hackerspace.govhack.org/challenges/bridging_social_divides_bringing_people_together_to_strengthen_social_connections)
-**Folder:** [`/Challenge-4 Bridging Social Divides`](./Challenge-4 Bridging Social Divides)  
-Our solution explores digital platforms and AI-powered initiatives that help reduce isolation, encourage participation, and foster inclusive community connections.
-
----
-
 ## Repository Structure
 
 ## Team SPYDER 🕷️
