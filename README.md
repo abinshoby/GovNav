@@ -1,7 +1,7 @@
 # SPYDER – GovHack 2025 Submissions
 
 Welcome to the **SPYDER** team’s repository for **GovHack 2025** 🚀.  
-We are submitting solutions to **4 challenges** that focus on strengthening communities, improving service access, and making government interactions easier with AI and innovative tools.  
+We are submitting solutions to **3 challenges** that focus on strengthening communities, improving service access, and making government interactions easier with AI and innovative tools.  
 
 Each challenge has its own folder with documentation, code, and prototypes.
 
