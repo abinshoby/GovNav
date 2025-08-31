@@ -1,9 +1,9 @@
-# Project Title: Red Tape Navigator
+# Red Tape Navigator
 
 *Cut through the maze of overlapping rules — navigate Australia's regulatory landscape with confidence.*
 
-![A screenshot or primary graphic of your solution](./docs/conflict_resolve.png)
-Caption: A prototype showing regulatory conflict resolution.
+![A prototype showing regulatory conflict resolution.](./docs/conflict_resolve.png)
+_A prototype showing regulatory conflict resolution._
 
 ## The Problem
 Australia's regulatory landscape spans local, state, and federal levels, making it difficult for businesses and individuals to know which laws apply — and where they conflict or overlap. This creates the need for a simplified way to resolve regulatory inconsistencies.
