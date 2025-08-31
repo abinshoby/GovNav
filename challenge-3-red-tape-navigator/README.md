@@ -53,6 +53,35 @@ We believe this is just the beginning. Our next steps are:
 Experience a simulation of how the Red Tape Navigator works:
 *[https://creme-savor-87554130.figma.site/](https://creme-savor-87554130.figma.site/)*
 
+## 🚀 Local Development Guide
+Follow the steps below to set up the project locally:
+
+### 1. Install Prerequisites
+- Download and install **Node.js** (includes npm) from the official website:  
+  👉 [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com/abinshoby/GovNav
+cd challenge-3-red-tape-navigator
+```
+### 3. Install Dependencies
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+```bash
+npx vite dev
+```
+
+### 5. Open in Browser
+Once the server is running, open your browser and navigate to:
+```bash
+http://localhost:5173
+```
+
+✅ You now have the project running locally!
 ---
 
 *Built for GovHack 2025 by Team SPYDER*
