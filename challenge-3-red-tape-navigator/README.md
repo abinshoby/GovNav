@@ -1,56 +1,58 @@
-# Challenge 3 – The Red Tape Navigator
+# Project Title: Red Tape Navigator
 
-Welcome to the **SPYDER** team’s submission for **GovHack 2025**, **Challenge 3: *The Red Tape Navigator***. This README outlines our solution’s concept, deliverables, structure, and how you can explore it in depth.
+*Cut through the maze of overlapping rules — navigate Australia's regulatory landscape with confidence.*
+
+![A screenshot or primary graphic of your solution](./docs/conflict_resolve.png)
+Caption: A prototype showing regulatory conflict resolution.
+
+## The Problem
+Australia's regulatory landscape spans local, state, and federal levels, making it difficult for businesses and individuals to know which laws apply — and where they conflict or overlap. This creates the need for a simplified way to resolve regulatory inconsistencies.
+
+## The Solution
+
+*Red Tape Navigator* is the first AI-driven regulatory assistant that provides a clear, step-by-step approach for setting up a business while meeting requirements across federal, state, and local jurisdictions.
+
+*   *Simple Chat Interface*: Users can input their queries into a chatbox and receive tailored guidance.
+*   *AI-Driven Action Plan*: The AI summarises local, state, and federal regulations to provide a step-by-step action plan.
+*   *Conflict Resolution with AI*: The AI generates simplified action plans to resolve conflicting regulations.
+*   *Transparent & Reliable*: Each regulatory information and conflict resolution plan includes citations for validation.
+
+## How We Built It
+
+We designed a user-centric solution using a modern tech stack focused on transparency and reliability:
+
+1.  *Figma:* Used for prototyping the user interface and experience, with emphasis on simplicity, accessibility, and responsiveness.
+2.  *Specialised AI for Legislations:* AAI trained exclusively on local, state, and federal legislation.
+3.  *Periodic Updates:* Regularly ingests new data to ensure users always access the latest regulations.
+
+## Challenges We Ran Into
+
+*   *Designing for Digital Inclusion:* Creating an interface intuitive for both tech-savvy and digitally excluded users was a major design challenge. We addressed this through rigorous testing of the chat interface.
+*   *AI Technical Standards Design:* Ensuring transparency and reliability of the AI-generated action plans required prompting the AI to fetch real-time data from government databases, with source details included.
+*   *Testing the Action Plan:* Validation required rigorous cross-checking of AI-generated action plans against regulatory databases.
+
+## Data Sources
+
+*   *Commonwealth Statute Book*: [https://www.alrc.gov.au/datahub/the-commonwealth-statute-book/](https://www.alrc.gov.au/datahub/the-commonwealth-statute-book/).
+*   *Federal Register of Legislation*: [https://www.legislation.gov.au/](https://www.legislation.gov.au/).
+*   *NSW Register of Legislation*: [https://legislation.nsw.gov.au/](https://legislation.nsw.gov.au/)
+*   *SA Register of Legislation*: [https://www.legislation.sa.gov.au/](https://www.legislation.sa.gov.au/)
+
+
+## What's Next for Red Tape Navigator
+
+We believe this is just the beginning. Our next steps are:
+
+1.  *Expand to All States:* Include regulations from every state and territory across Australia.
+2.  *Enhance Conversations:* Improve the chat experience by enabling multi-turn conversations for clarifications.
+3. *Enable Guardrails:* Add safeguards to prevent AI hallucinations.
+4. *Deploy:* Launch the application for real-world use.
+
+## Try Our Prototype
+
+Experience a simulation of how the Red Tape Navigator works:
+*[https://creme-savor-87554130.figma.site/](https://creme-savor-87554130.figma.site/)*
 
 ---
 
-##  Challenge Overview
-
-**Jurisdiction:** Australia  
-**Prompt (paraphrased):**  
-Australia's regulatory landscape spans local, state, and federal levels, making it tricky for businesses and individuals to know which laws apply—and where they conflict or overlap. The challenge invites innovative digital solutions—from web apps and chatbots to visual tools and data frameworks—that help users discover, visualize, and navigate regulatory obligations. Using at least one Commonwealth dataset is required, with additional points for integrating AI according to standards like the AI Technical Standards design statements.:contentReference[oaicite:0]{index=0}
-
----
-
-##  Deliverables
-
-To address the problem effectively, our submission features:
-
-1. **Regulatory Discovery Tool**  
-   - Empowers users to search by location, activity, or industry to uncover applicable regulatory requirements at all government levels.
-
-2. **Interactive Visual Map or Navigator**  
-   - Presents overlapping and hierarchical regulations visually (e.g., flowchart, map), making it simpler to comprehend jurisdictional layers.
-
-3. **AI-Powered Assistant (Optional Bonus)**  
-   - A conversational interface (e.g. chatbot) that can field queries like “What license do I need as a café in Adelaide?” while adhering to AI Technical Standards.:contentReference[oaicite:1]{index=1}
-
-4. **Dataset Integration**  
-   - Includes and references at least one Commonwealth source—like the Federal Register of Legislation, Commonwealth Statute Book, or Australian Government Organisations Register. Optional state datasets may also be integrated.:contentReference[oaicite:2]{index=2}
-
-5. **Presentation Slides**  
-   - A slide deck showcasing our solution's user flow, key design principles, and expected impact.
-
----
-
-##  Folder Structure
-
-```text
-./challenge-3-red-tape-navigator/
-├── README.md               ← (this file)
-├── docs/
-│   ├── problem-statement.md  ← Restated challenge & design goals
-│   ├── data-sources.md       ← Data table: Commonwealth and state sources
-│   └── design-ux.md          ← UX sketches, navigation diagrams, visuals
-│
-├── code/
-│   ├── navigator-app/        ← Code for web UI or tool (frontend/backend)
-│   ├── dataset-integration/  ← Scripts for data ingestion and harmonisation
-│   └── ai-assistant/         ← (Optional) Chatbot logic, prompt flows, AI compliance
-│
-├── datasets/
-│   ├── commonwealth/         ← Extracted Commonwealth data samples
-│   └── state/                ← (Optional) State-level legislation datasets
-│
-└── presentation/
-    └── slides.pdf            ← Final presentation deck
+*Built for GovHack 2025 by Team SPYDER*
