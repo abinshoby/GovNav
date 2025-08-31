@@ -16,6 +16,7 @@ Australia's regulatory landscape spans local, state, and federal levels, making 
 *   *AI-Driven Action Plan*: The AI summarises local, state, and federal regulations to provide a step-by-step action plan.
 *   *Conflict Resolution with AI*: The AI generates simplified action plans to resolve conflicting regulations.
 *   *Transparent & Reliable*: Each regulatory information and conflict resolution plan includes citations for validation consistent with the AI Technical Standards design [https://www.digital.gov.au/policy/ai/AI-technical-standard/technical-standard-governments-use-artificial-intelligence-design](https://www.digital.gov.au/policy/ai/AI-technical-standard/technical-standard-governments-use-artificial-intelligence-design).
+* *Guardrails for Hallucination Prevention*: Uses [Amazon Bedrock Guardrails](https://aws.amazon.com/bedrock/guardrails/) for hallucination free guidance.
 
 ## How We Built It
 
@@ -45,7 +46,7 @@ We believe this is just the beginning. Our next steps are:
 
 1.  *Expand to All States:* Include regulations from every state and territory across Australia.
 2.  *Enhance Conversations:* Improve the chat experience by enabling multi-turn conversations for clarifications.
-3. *Enable Guardrails:* Use Amazon Bedrock Guardrails to prevent AI hallucinations.
+3. *Personalization:* Personalized guidance based on the context and past business history.
 4. *Deploy:* Launch the application for real-world use.
 
 ## Try Our Prototype
