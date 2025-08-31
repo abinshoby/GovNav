@@ -15,7 +15,7 @@ Australia's regulatory landscape spans local, state, and federal levels, making 
 *   *Simple Chat Interface*: Users can input their queries into a chatbox and receive tailored guidance.
 *   *AI-Driven Action Plan*: The AI summarises local, state, and federal regulations to provide a step-by-step action plan.
 *   *Conflict Resolution with AI*: The AI generates simplified action plans to resolve conflicting regulations.
-*   *Transparent & Reliable*: Each regulatory information and conflict resolution plan includes citations for validation.
+*   *Transparent & Reliable*: Each regulatory information and conflict resolution plan includes citations for validation to consistent with the AI Technical Standards design [https://www.digital.gov.au/policy/ai/AI-technical-standard/technical-standard-governments-use-artificial-intelligence-design](https://www.digital.gov.au/policy/ai/AI-technical-standard/technical-standard-governments-use-artificial-intelligence-design).
 
 ## How We Built It
 
